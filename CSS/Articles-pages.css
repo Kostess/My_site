@@ -1,0 +1,104 @@
+.text-article-page > h3, .title-article-page > h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+article {
+  padding: 10px;
+}
+
+.article-page {
+  width: 100%;
+}
+
+.title-article-page > p {
+  color: #9D9D9D;
+}
+.title-article-page a {
+  color: #000;
+  text-decoration: none;
+}
+.title-article-page a:hover {
+  text-decoration: underline;
+  color: #122AFF;
+}
+
+.text-article-page {
+  margin-top: 30px;
+  font-size: 16px;
+  width: 100%;
+  text-align: justify;
+  line-height: 22px;
+  font-family: "Open Sans";
+}
+.text-article-page > h3 {
+  font-weight: normal;
+  margin-top: 20px;
+}
+.text-article-page > p {
+  margin-top: 15px;
+}
+.text-article-page > img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 400px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .text-article-page > img {
+    width: 200px;
+  }
+}
+
+.pluso {
+  margin-top: 50px;
+}
+
+.pagination {
+  margin-top: 30px;
+}
+
+@media (max-width: 390px) {
+  .pluso-wrap {
+    width: 275px;
+  }
+}
+
+.list-block-pagination {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-pagination + .block-pagination {
+  margin-left: 10px;
+}
+.block-pagination > a:hover {
+  background-color: #4D5FFF;
+  transition: 0.2s;
+}
+.block-pagination > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #4C49CE;
+  color: #FFF;
+}
+
+.comments {
+  width: 100%;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  border: 1px solid #000;
+  padding: 50px;
+}
